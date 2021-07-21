@@ -1,5 +1,6 @@
 body{
-  height:2000px;
+  height:900px;
+ 
 
 
 }
@@ -9,7 +10,9 @@ h1{
   color:#FA794F;
   font-family: 'Poppins', sans-serif;
   font-size:25pt;
-  margin-left:90px;
+  text-align:center;
+  margin-top:-1850px;
+  
 
 }
 p{
@@ -55,8 +58,10 @@ p4{
   font-family: 'Poppins', sans-serif;
   font-size:13pt;
   color:#FA794F;
-  margin-top:300px;
-  margin-left:15px;
+  display: table-cell;
+  vertical-align: middle
+  /* text-align:center; */
+  
     
 
   }
@@ -101,16 +106,39 @@ p6{
   margin:none;
   }
 
+  aside{
+    margin-top:1890px;
+    }
+
+
+h4{
+  color:#FA794F;
+  font-family: 'Poppins', sans-serif;
+  font-size:15pt;
+
+
 }
+
+.lol{
+margin-top:300px;
+
+
+}
+.lal{
+
+  margin-top:-1300px;
+}
+}
+
 
 @media only screen and (min-width: 900px){
 body{
-  height:1700px;
+  height:1200px;
       
       
       }
 h1{
-  color:white;
+  color:#FA794F;
   font-family: 'Poppins', sans-serif;
   font-size:45pt;
   margin-left: 2%;
@@ -124,7 +152,7 @@ h1{
       }
  p{
   font-family: 'Poppins', sans-serif;
-   font-size: 15pt;
+   font-size: 20pt;
     
     }
 p2{
@@ -185,20 +213,21 @@ aside{
   width: 30%;
   padding-left: .5rem;
   margin-left: .5rem;
-  margin-top:-500px;
+  
 
   float: right;
   box-shadow: inset 5px 0 5px -5px #29627e;
   font-style: italic;
-  color: #29627e;
+  color:white;
 
         }
        
        
-header{
+       
+/* header{
 
   background-color:#FA794F;
-    }
+    } */
 footer{
 
   height:500px;
@@ -214,54 +243,62 @@ footer{
 .phone .fa, .fas{
 
   color:white;
-   font-size:40pt;
+   font-size:20pt;
          
-   margin-left:100px;
+   margin-left:-0px;
 
         }
 .mail .fa, .fas{
 
   color:white;
-  font-size:40pt;
+  font-size:20pt;
   margin-top:-1px;
-  margin-left:100px;
+  /* margin-left:100px; */
 
         }
         
 .num .fa, .fas{
 
    color:white;
-   font-size:40pt;
+   font-size:20pt;
    margin-top:60px;
-   margin-left:100px;
+   /* margin-left:100px; */
 
         }
 .lin .fab, .far {
 
    color:white;
-   font-size:40pt;
+   font-size:20pt;
    margin-top:60px;
-   margin-left:100px;
+   margin-left:10px;
 
         }
  .lin a{
-   margin-left:40px;
+   margin-left:10px;
           
 
 
         }
  p4{
-  margin-left:200px;
+  margin-left:10px;
    margin-top:-80px;
-
+   font-size:10pt;
 
         }
 p6{
-   margin-left:40px;
+   margin-left:10px;
+   font-size:10pt;
         }
 p5{
-  margin-left:40px;
+  margin-left:10px;
+  font-size:10pt;
 
+}
+h4{
+  
+  color:white;
+  font-family: 'Poppins', sans-serif;
+  font-size:20pt;
 
 }
    
