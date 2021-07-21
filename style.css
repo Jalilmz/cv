@@ -98,7 +98,11 @@ p6{
  
          }
   .lin a{
-    margin-left:85px;
+    
+    display:block;
+    vertical-align: middle;
+    margin-left:25%;
+ 
   }
 
 .fond img{
