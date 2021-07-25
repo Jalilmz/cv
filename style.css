@@ -71,7 +71,7 @@ article{
   height:700px;
   }
 
-p5{
+.p5{
 
   font-family: 'Poppins', sans-serif;
   font-size:13pt;
@@ -135,7 +135,7 @@ margin-top:300px;
 }
 
 
-@media only screen and (min-width: 900px){
+@media only screen and (min-width: 701px){
 body{
   height:1200px;
       
@@ -185,12 +185,13 @@ p3{
           
       
         }
-p5{
+.p5{
 
    font-family: 'Poppins', sans-serif;
-   font-size:15pt;
+   font-size:10pt;
    color:white;
-   margin-top:50px;
+   margin-left:35px;
+   margin-top:-15px;
           
 
           
@@ -293,11 +294,11 @@ p6{
    margin-left:10px;
    font-size:10pt;
         }
-p5{
+/* p5{
   margin-left:10px;
-  font-size:10pt;
+  font-size:10pt; */
 
-}
+/* } */
 h4{
   
   color:white;
